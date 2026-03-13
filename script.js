@@ -10,7 +10,9 @@ function goToRSS() {
     window.location.href = 'marvz2.htm';
 }
 
-
+function goToVER() {
+    window.location.href = 'marvz1.htm';
+}
 
 function refreshFrameLeft(event) {
     event.preventDefault();
