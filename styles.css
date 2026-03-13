@@ -91,6 +91,11 @@ body, html {
     cursor: pointer;
 }
 
+button:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+
 .dark-mode .text-element {
   background-color: #000;
   color: #fff;
